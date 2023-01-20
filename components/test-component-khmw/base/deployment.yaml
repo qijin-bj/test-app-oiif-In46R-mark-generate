@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-khmw
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:cade400c265b4f5781fa0fe27f7db55f
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:511d0edb1e22dc9b926af63a9585bf5e51481e677d06ecb821aebd5a66121799
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
